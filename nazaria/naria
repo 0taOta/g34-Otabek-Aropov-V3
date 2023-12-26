@@ -1,0 +1,8 @@
+1.Thread life cycle 3 ta main darajali bolimga bolingan bu "born" start() keyboard bilan yatiladigan proccess,
+process ozini davomligi run bolayatgan vaqti, va terminate tread olishi. Process jarayonida hilma hil thread conditonlari
+bolishi mumkun bu sleep, wait larga ohshash conditionlar.
+
+2.Callable va Runnable intefacelarning farqiligi bu, Runnable interface Object.util.java.lang dan togri implemetasia
+olgan interface hisoblanadi, va Runnable ga nisbatan object qaytaradi, callable classi bitta override metodi va u call(),
+returns an object, while Runnable interface hech narsa qaytarmidi void methodi, va run() override methodi mavjud.
+Ammo ikkalasi ham multithreadingni qollab quvatlaydi, runnable execute(), callable submit().
